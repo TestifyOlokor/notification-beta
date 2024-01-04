@@ -1,0 +1,117 @@
+main{
+    padding-top: 3.5rem;
+    background-color: darkslategrey;
+    height: 93vh;
+    text-align: left;
+    
+}
+
+main section{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    align-items: center;
+}
+
+main section header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.notification{
+    display: flex;
+
+}
+
+.notification h1 span{
+    background: darkblue;
+    color: #ffffff;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: left;
+    background: #f2f2f2f2;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.container-sm{
+    background: #ffffff;
+}
+
+
+.container .img{
+    width: 13%;
+}
+.container .img img{
+    width: 50px;
+}
+
+.container .message-container{
+    width: 90%;
+}
+
+.red{
+    display: inline-block;
+    width: 10px;  
+    height: 10px; 
+    border-radius: 50%;
+    background-color: red;
+}
+.red-sm{
+    display: none;
+}
+
+.container .message-container p .fullname{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container .message-container p{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+}
+.descript{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.hidden-message {
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 0.2rem 0.9rem;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+  }
+  
+  .visible {
+    opacity: 1;
+    height: auto;
+  }
+
+.sc-container{
+    height: 70vh;
+    overflow-y: auto;
+}
